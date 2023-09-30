@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: blue;
+    font-weight: 500;
+    background: rgb(235, 235, 254);
+
+}
+
+.header > a {
+    margin-left: 120px;
+}
+
+.header__items{
+    display: flex;
+    justify-content: space-around;
+    flex: 0.5;
+}

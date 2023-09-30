@@ -1,0 +1,167 @@
+.landing__page{
+    width: 100%s;
+}
+
+.hero__section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.hero__section > h1{
+    margin-top: 50px;
+    text-align: center;
+    color: #0C0633;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+.hero__section > p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hero__section > button{
+    border-radius: 8px;
+    background: var(--blue---default, #2814AB);
+    padding: 8px;
+    color: white;
+    width: 240px;
+    margin: 32px auto;
+}
+
+.flow__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.flow__content > h1{
+    font-size: 69px;
+    font-weight: 600;
+    color: #3018CD;
+}
+
+.flow__content > h3{
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.flow__content > p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
+
+.message{
+    justify-content: space-around;
+    background: #4A32E7;
+    padding: 24px 200px 24px 100px;
+    gap: 100px;
+    align-items: center;
+}
+
+.message > img {
+    width: 224px;
+    height: 210px;
+    flex: 0.2;
+}
+
+.message__text {
+    flex: 0.8;
+}
+
+.message__text > h2{
+    color: #FFF;
+    text-align: justify;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42.9px; /* 153.214% */ 
+    margin-bottom: 10px;
+    
+} 
+
+.message__text > p{
+    color: #CDF;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 24.2px; /* 134.444% */
+}
+
+.message__guide{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.message__guide > img {
+    width: 446.88px;
+    height: 303.953px;
+}
+
+.message__guide__text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.message__guide__text > h2{
+    color: #0C0633;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.message__guide__text > p {
+    color: #555;
+    width : 60vw;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.message__guide__text > button {
+    border-radius: 8px;
+    color: #FFF;
+    background: var(--blue---default, #2814AB);
+    width: 240px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.footer{
+    margin-left: 3rem;
+}
+
+.footer > h2{
+    color: var(--Dark, #0A142F);
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.footer > p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.desclaimer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 100px;
+}
+
+.socials > a{
+    color: #0A142F;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 5px;
+}
