@@ -4,6 +4,7 @@ import Resume from './pages/Resume'
 import Login from "./pages/Login";
 import SignUP from "./pages/SignUP";
 import Header from "./pages/Header";
+import Guide from "./pages/Guide";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/resume" element={<Resume />}/>
+            <Route path="/guide" element={<Guide />}/>
             <Route path="/login" element={<Login />}/>
             <Route path="/signUp" element={<SignUP />}/>
         </Routes>

@@ -17,7 +17,7 @@ const Home = () => {
       <div className="hero__section">
         <h1><span>Build, Revamp, Compose</span><br />your resume with <span style={{color:"#0C0633;"}}>Resumate</span></h1>
         <p>Elevate your resume from the pile and secure your spot in the interview room with RESUMATE. Craft stylish and stunning, "industry-ready" resumes tailored for your dream job.</p>
-        <button>Get Started</button>
+        <button><a href="https://form-resumate.netlify.app/">Get Started</a></button>
         <img src={HeroImg} alt="" />
       </div>
       <div className="flow ">
@@ -51,8 +51,8 @@ const Home = () => {
             className="flow__content"
             style={{ textAlign: "right", marginLeft: "20px" }}
           >
-            <h1>01</h1>
-            <h3>Choose a Template</h3>
+            <h1>02</h1>
+            <h3>Fill in the deatails</h3>
             <p>
               Customize to fit your needs with styles that define YOU! Whether
               you prefer modern, traditional, or sleek, WE GOT YOU!
@@ -66,8 +66,8 @@ const Home = () => {
         />
         <div className="flow__01 flex justify-around align-middle mt-5">
           <div className="flow__content">
-            <h1>01</h1>
-            <h3>Choose a Template</h3>
+            <h1>03</h1>
+            <h3>Preview and download</h3>
             <p>
               Customize to fit your needs with styles that define YOU! Whether
               you prefer modern, traditional, or sleek, WE GOT YOU!
@@ -104,7 +104,7 @@ const Home = () => {
             badges to make it out of the crowd. Following additional information
             works as your Badges and helps to elevate your profile
           </p>
-          <button>Check Guide</button>
+          <button><a href="https://roadmap.sh/">Check Guide</a></button>
         </div>
       </div>
       <hr

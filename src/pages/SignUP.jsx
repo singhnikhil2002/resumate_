@@ -42,6 +42,7 @@ const SignUP = () => {
 
         await setDoc(doc(db, "users", user.uid), formDataCopy);
         navigate("/");
+        console.log("success");
       } catch (error) {
         console.log(error);
       }
@@ -77,7 +78,7 @@ const SignUP = () => {
           <input type="text" placeholder="Password" id="password" value={password} onChange={onChange}/>
           <button type="submit">Create Account</button>
           <p style={{ fontSize: "14px", marginTop: "5px" , textAlign: "center"}}>
-            Already have an account?<Link to="/login">Sign Up</Link>
+            Already have an account?<Link to="/login" style={{marginLeft: "10px",fontWeight:"bold"}}>Login</Link>
           </p>
         </div>
         </form>
